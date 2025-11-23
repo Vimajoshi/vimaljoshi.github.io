@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vimal Joshi | Portfolio</title>
+    <meta name="description" content="Portfolio of Vimal Joshi, a Software Engineer specializing in DevOps, Full Stack Development, and Machine Learning.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Vimal Joshi<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact" class="btn-primary">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <p class="subtitle">Hello, I'm</p>
+                <h1 class="title">Vimal Joshi</h1>
+                <h2 class="role">Software Engineer & DevOps Enthusiast</h2>
+                <p class="description">
+                    Specializing in building scalable cloud infrastructure, full-stack web applications, and machine learning models. 
+                    Based in Gurugram, India.
+                </p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn-primary">View Work</a>
+                    <a href="mailto:vimaljoshi8860@gmail.com" class="btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/Vimajoshi" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="mailto:vimaljoshi8860@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://leetcode.com/u/vimalJoshi/" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <h3 class="job-title">Associate Software Engineer</h3>
+                            <span class="company">Accenture</span>
+                        </div>
+                        <div class="job-meta">
+                            <span class="location">Gurugram, India</span>
+                            <span class="date">Mar 2024 – Feb 2025</span>
+                        </div>
+                        <ul class="job-desc">
+                            <li>Engineered and managed cloud infrastructure projects using DevOps CI/CD methodologies, reducing manual effort.</li>
+                            <li>Designed and implemented scalable DevOps pipelines and managed Git repositories with Terraform, improving cloud provisioning efficiency.</li>
+                            <li>Developed automation scripts using Python and PowerShell, increasing operational efficiency.</li>
+                            <li>Managed RBAC through Microsoft Entra ID, securing authentication and authorization for over 20 applications.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="job-header">
+                            <h3 class="job-title">Sub-Technical Head (Intern)</h3>
+                            <span class="company">APC-Software Development Cell, Ramanujan College</span>
+                        </div>
+                        <div class="job-meta">
+                            <span class="location">Delhi, India</span>
+                            <span class="date">Oct 2022 – Jul 2023</span>
+                        </div>
+                        <ul class="job-desc">
+                            <li>Led the development of a full-stack web application using React, Node.js, and MongoDB, improving performance and user engagement.</li>
+                            <li>Architected and implemented a responsive UI and robust back-end for seamless UX and data management.</li>
+                            <li>Resolved critical development roadblocks, delivering the project two weeks ahead of schedule.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Predicting House Prices</h3>
+                        <p class="project-tech">Linear Regression, Scikit-learn</p>
+                        <p class="project-desc">Developed a ML model to predict house prices with 92% accuracy. Engineered features from a dataset of 1,500+ houses and evaluated performance with MAE and R-squared metrics.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Movie Recommendation System</h3>
+                        <p class="project-tech">Collaborative Filtering, SVD</p>
+                        <p class="project-desc">Built a recommendation engine achieving 75% precision. Used MovieLens dataset and Surprise library with SVD, processing 100,000+ ratings for real-time suggestions.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Sentiment Analysis of Product Reviews</h3>
+                        <p class="project-tech">NLP, TF-IDF, Logistic Regression</p>
+                        <p class="project-desc">Developed NLP model to classify sentiment of 10,000+ product reviews with 88% accuracy. Used NLTK and Scikit-learn; created visualizations for sentiment distribution.</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Image Classification using CNN</h3>
+                        <p class="project-tech">TensorFlow, Keras, CNN</p>
+                        <p class="project-desc">Constructed CNN using TensorFlow and Keras to classify CIFAR-10 images with 90% accuracy. Implemented data augmentation and fine-tuned hyperparameters.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-tags">
+                        <span>Python</span><span>C++</span><span>SQL</span><span>JavaScript</span><span>TypeScript</span><span>YAML</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <div class="skill-tags">
+                        <span>Microsoft Azure (AZ-900)</span><span>Docker</span><span>Kubernetes</span><span>CI/CD</span><span>Terraform</span><span>ARM Templates</span><span>Linux CLI</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span>TensorFlow</span><span>PyTorch</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>React</span><span>Node.js</span><span>Express.js</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Others</h3>
+                    <div class="skill-tags">
+                        <span>MongoDB</span><span>SQL Server</span><span>PostgreSQL</span><span>Git</span><span>Agile</span><span>REST APIs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-card">
+                <div class="edu-header">
+                    <h3 class="school">Ramanujan College, University of Delhi</h3>
+                    <span class="edu-date">Oct 2020 – Jun 2023</span>
+                </div>
+                <p class="degree">Bachelor of Science (Honours) in Computer Science</p>
+                <p class="edu-details">
+                    Data Structures, Design and Analysis of Algorithms, Computer Architecture, Database Systems, Operating Systems, Software Engineering, Computer Networks, Calculus, Discrete Mathematics, Statistics.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <h2>Let's Connect</h2>
+                <p>Open to opportunities in Software Engineering and DevOps.</p>
+                <a href="mailto:vimaljoshi8860@gmail.com" class="email-link">vimaljoshi8860@gmail.com</a>
+            </div>
+            <div class="footer-right">
+                <div class="social-links">
+                    <a href="https://github.com/Vimajoshi" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/vimalJoshi/" target="_blank"><i class="fas fa-code"></i></a>
+                </div>
+                <p class="copyright">&copy; <span id="year"></span> Vimal Joshi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
